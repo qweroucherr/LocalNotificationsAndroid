@@ -7,74 +7,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/amWaitingButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="20dp"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        android:onClick="amWaiting"
+        android:text="@string/am_waiting" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/titleET"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/title" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/wasWaitingButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="20dp"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/messageET"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/message" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
-
-        <DatePicker
-            android:id="@+id/datePicker"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:datePickerMode="spinner"
-            android:calendarViewShown="false"
-            android:layout_gravity="center"
-            android:scaleY="0.7"
-            android:scaleX="0.7"
-            android:layout_marginLeft="-30dp"
-            android:layout_marginRight="-30dp"
-            />
-        <TimePicker
-            android:id="@+id/timePicker"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:timePickerMode="spinner"
-            android:layout_gravity="center"
-            android:scaleY="0.7"
-            android:scaleX="0.7"
-            android:layout_marginLeft="-30dp"
-            android:layout_marginRight="-30dp"/>
-    </LinearLayout>
+        android:onClick="wasWaiting"
+        android:text="@string/was_waiting" />
 
     <Button
         android:id="@+id/submitButton"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:text="@string/schedule_notification"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="setting"
+        android:text="@string/setting" />
 
 </LinearLayout>

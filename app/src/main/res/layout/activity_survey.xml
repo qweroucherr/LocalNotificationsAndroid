@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurveyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q1" />
+
+            <EditText
+                android:id="@+id/editText_a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#757575" />
+
+            <TextView
+                android:id="@+id/textview_q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q2" />
+
+            <EditText
+                android:id="@+id/editText_a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#757575" />
+
+            <TextView
+                android:id="@+id/textview_q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q3" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c31" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c32" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c33" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c34" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c35" />
+
+            <TextView
+                android:id="@+id/textview_q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c41" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c42" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c43" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c44" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c45" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c46" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c47" />
+
+            <CheckBox
+                android:id="@+id/checkBox_a48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c48" />
+
+            <TextView
+                android:id="@+id/textview_q5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5" />
+
+            <EditText
+                android:id="@+id/editText_a5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/am_waiting"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColorHint="#757575" />
+
+            <Button
+                android:id="@+id/button_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="submit"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
